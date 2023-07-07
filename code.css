@@ -35,11 +35,77 @@
     height: 100vh;
     align-items: center;
     color: white;
-    border: 2px solid gray;
+    /*border: 2px solid gray;*/
     background-image: url("background.png"),
-    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53))
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .title{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: bold;
+}
+.decription{
+    font-size: 18px;
+margin-top: 15px;
+margin-bottom: 15px;
+}
+.btn{
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.btn:hover{
+color:blue;
+}
+.about-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row-reverse;
+    padding: 10px;
+
+}
+.about-title{
+    text-align: center;
+    padding-top: 20px;
+}
+.box{
+    width: 200px;
+    /* height: 300px; */
+    box-shadow: 4px 4px 15px grey;
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+    color: white;
+
+}
+.icon{
+    width: 100px;
+}
+.box-btn{
+    background-color: gray;
+    margin-top: 10px;}
+.box-title{
+    padding: 5px;
+}
+.box-decription{
+    padding: 5px;
+}
+.scervice-container{
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+}
+.scervice-section{
+    background-image: url("background.png"),
+    linear-gradient(45deg,rgb(8, 8, 8),rgb(53, 53, 53));
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: white;
 }
